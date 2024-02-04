@@ -82,7 +82,7 @@ if __name__ == '__main__':
         elif "shoes".lower() in query.lower():
             # automatically plays your ringtone so that you can pretend that you are getting a call and can try to escape an uncomfortable situation
             # you can say normal conversation phrases such as "Your shoes look good" the AI will recognize the word shoes and play the ringtone
-            file_path = "C:/Users/Anup/Downloads/7120-download-iphone-6-original-ringtone-42676.mp3"
+            file_path = "C:/Users/Downloads/7120-download-iphone-6-original-ringtone-42676.mp3"
             os.system(f'start {file_path}')
 
         # To get and speak the latest news
