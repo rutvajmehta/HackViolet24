@@ -79,11 +79,11 @@ def send_sms_via_email(
         email.sendmail(sender_email, receiver_email, email_message)
 
 def main():
-    number = "8582509640"
+    number = "XXX34234XX"
     message  = "Track my location and help me i am in an uncomfortable situation or just call me so i can make an excuse to leave xoxo"
     provider = "T-Mobile"
 
-    sender_credentials = ("jayudulani@gmail.com", "yqvu jimi ghig ccot")
+    sender_credentials = ("XXXXXXXXXXXX@gmail.com", "awda XXXX giwg XXXX")
 
     send_sms_via_email(number, message, provider, sender_credentials)
 
